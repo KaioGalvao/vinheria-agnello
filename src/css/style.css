@@ -1,0 +1,94 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #5a0f0f;
+    color: white;
+    padding: 1rem;
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-a{
+    font-weight: 100;
+    transition: .1s ease-in;
+}
+
+.menu-a:hover{
+    font-weight: 700;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Estilos específicos */
+.destaque {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 12px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+}
+
+form {
+    display: grid;
+    gap: 1rem;
+    max-width: 500px;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    width: 100%;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #5a0f0f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.content{
+    display :flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
