@@ -15,4 +15,4 @@ Site institucional da Vinharia Agnello, empresa familiar com mais de 70 anos de 
 - [Jean Pierre Andrade Feltran - rm566534]
 
 ## Link do Projeto
-[GitHub Pages](https://KaioGalvao.github.io/vinharia-agnello/)
+[GitHub Pages](https://kaiogalvao.github.io/vinheria-agnello/)
