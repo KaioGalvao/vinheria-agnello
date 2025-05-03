@@ -13,6 +13,14 @@ header {
     position: relative;
 }
 
+.img-principal {
+    width: 100%;
+    height: 500px;
+    aspect-ratio: 16/9; /* Proporção desejada (ex: 16:9) */
+    object-fit: cover;
+    object-position: center; 
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -91,4 +99,9 @@ button {
     flex-direction: column;
     text-align: center;
     align-items: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
