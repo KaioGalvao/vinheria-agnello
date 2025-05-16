@@ -1,0 +1,55 @@
+.menu-a:hover{
+    color: rgb(255, 225, 225);
+}
+
+
+h2::after {
+    content: " 🍷 ";
+    color: blue;
+}
+
+.produto > img:hover{
+    transition: .5s ease;
+    transform: scale(1.025);
+}
+
+.galeria > img:hover {
+    transition: .5s ease;
+    border-radius: 50%;
+    transform: skewY(15deg);
+}
+
+input:focus,
+textarea:focus {
+    border: 2px rgb(177, 1, 1) solid;
+    background-color: rgba(255, 225, 225, 0.192);
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.3); 
+}
+
+.titulo::before {
+    content: attr(data-text);
+    position: absolute;
+    color: white;
+    animation: onda 3s ease-in-out infinite;
+    clip-path: polygon(0% 100%, 100% 100%, 100% 60%, 0% 60%);
+}
+
+
+@keyframes liquido {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-5px); }
+    50% { transform: translateY(5px); }
+    75% { transform: translateY(-3px); }
+    100% { transform: translateY(0); }
+}
+
+
+@keyframes onda {
+    0%, 100% {
+        clip-path: polygon(0% 100%, 100% 100%, 100% 60%, 0% 60%);
+    }
+    50% {
+        clip-path: polygon(0% 100%, 100% 100%, 100% 30%, 0% 30%);
+    }
+}
+
