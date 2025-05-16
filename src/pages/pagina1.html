@@ -1,76 +1,119 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="história, tradição, família Agnello, fundação">
-    <meta name="description" content="Conheça a história da Vinharia Agnello e nossa tradição familiar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="história, tradição, família Agnello, fundação"
+    />
+    <meta
+      name="description"
+      content="Conheça a história da Vinharia Agnello e nossa tradição familiar"
+    />
     <title>Vinharia Agnello - Nossa História</title>
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a class="menu-a" href="../../index.html">Home</a></li>
-                <li><a class="menu-a" href="pagina1.html">História</a></li>
-                <li><a class="menu-a" href="pagina2.html">Produtos</a></li>
-                <li><a class="menu-a" href="pagina3.html">Galeria</a></li>
-                <li><a class="menu-a" href="pagina4.html">Contato</a></li>
-            </ul>
-        </nav>
-        <h1 class="titulo" data-text="Vinheria Agnello">Vinheria Agnello</h1>
-        <img src="../assets/imgs/vinho-restaurante.webp" class="img-principal" alt="Garrafas de vinho em restaurante">
+      <nav>
+        <ul>
+          <li><a class="menu-a" href="../../index.html">Home</a></li>
+          <li><a class="menu-a" href="pagina1.html">História</a></li>
+          <li><a class="menu-a" href="pagina2.html">Produtos</a></li>
+          <li><a class="menu-a" href="pagina3.html">Galeria</a></li>
+          <li><a class="menu-a" href="pagina4.html">Contato</a></li>
+        </ul>
+      </nav>
+      <h1 class="titulo" data-text="Vinheria Agnello">Vinheria Agnello</h1>
+      <img
+        src="../assets/imgs/vinho-restaurante.webp"
+        class="img-principal"
+        alt="Garrafas de vinho em restaurante"
+      />
     </header>
 
-    <main>
-        <h2>Nossa História</h2>
-        
-        <section class="content">
-            <h3>As Origens</h3>
-            <p>A Vinharia Agnello foi fundada em 2009 por Giuseppe Agnello, imigrante italiano...</p>
-            <img src="../assets/imgs/deposito.jpg" alt="Depósito de vinhos antigo">
-        </section>
+    <h2>Nossa História</h2>
+    <main class="history-container">
+      <section class="history-section">
+        <div class="history-content">
+          <h3 class="history-subtitle">As Origens</h3>
+          <p class="history-text">
+            A Vinharia Agnello foi fundada em 2009 por Giuseppe Agnello,
+            imigrante italiano...
+          </p>
+        </div>
+        <div class="history-image-wrapper">
+          <img
+            src="../assets/imgs/deposito.jpg"
+            alt="Depósito de vinhos antigo"
+            class="history-image"
+          />
+          <div class="image-caption">Nosso primeiro armazém em 2009</div>
+        </div>
+      </section>
 
-        <section class="content">
-            <h3>Linha do Tempo</h3>
-            <ol>
-                <li>2009 - Fundação</li>
-                <li>2010 - Primeira exportação</li>
-                <li>2016 - Modernização</li>
-                <li>2017 - Sustentabilidade</li>
-            </ol>
-        </section>
+      <section class="history-section timeline">
+        <h3 class="history-subtitle">Linha do Tempo</h3>
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <span class="timeline-year">2009</span>
+            <span class="timeline-event">Fundação</span>
+            <div class="timeline-dot"></div>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-year">2010</span>
+            <span class="timeline-event">Primeira exportação</span>
+            <div class="timeline-dot"></div>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-year">2016</span>
+            <span class="timeline-event">Modernização</span>
+            <div class="timeline-dot"></div>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-year">2017</span>
+            <span class="timeline-event">Sustentabilidade</span>
+            <div class="timeline-dot"></div>
+          </li>
+        </ol>
+      </section>
 
-        <section class="content">
-            <h3>Nossa Equipe</h3>
-            <table>
-                <tr>
-                    <th>Cargo</th>
-                    <th>Nome</th>
-                    <th>Tempo na empresa</th>
-                </tr>
-                <tr>
-                    <td>Gerente</td>
-                    <td>Giuseppe Agnello</td>
-                    <td>42 anos</td>
-                </tr>
-                <tr>
-                    <td>Enólogo</td>
-                    <td>Carlos Agnello</td>
-                    <td>20 anos</td>
-                </tr>
-                <tr>
-                    <td>Enólogo</td>
-                    <td>Marcia Fu</td>
-                    <td>22 anos</td>
-                </tr>
-            </table>
-        </section>
+      <section class="history-section team-section">
+        <h3 class="history-subtitle">Nossa Equipe</h3>
+        <div class="table-container">
+          <table class="team-table">
+            <thead>
+              <tr>
+                <th>Cargo</th>
+                <th>Nome</th>
+                <th>Tempo na empresa</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Cargo">Gerente</td>
+                <td data-label="Nome">Giuseppe Agnello</td>
+                <td data-label="Tempo">42 anos</td>
+              </tr>
+              <tr>
+                <td data-label="Cargo">Enólogo</td>
+                <td data-label="Nome">Carlos Agnello</td>
+                <td data-label="Tempo">20 anos</td>
+              </tr>
+              <tr>
+                <td data-label="Cargo">Enólogo</td>
+                <td data-label="Nome">Marcia Fu</td>
+                <td data-label="Tempo">22 anos</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Vinharia Agnello - Todos os direitos reservados</p>
+      <p>&copy; 2025 Vinharia Agnello - Todos os direitos reservados</p>
     </footer>
-</body>
+  </body>
 </html>
