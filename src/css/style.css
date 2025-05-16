@@ -1,9 +1,11 @@
-/* Estilos gerais */
+@import "efeitos.css";
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    text-align: center;
 }
 
 header {
@@ -16,7 +18,7 @@ header {
 .img-principal {
     width: 100%;
     height: 500px;
-    aspect-ratio: 16/9; /* Proporção desejada (ex: 16:9) */
+    aspect-ratio: 16/9;
     object-fit: cover;
     object-position: center; 
 }
@@ -37,12 +39,10 @@ nav a {
 
 .menu-a{
     font-weight: 100;
-    transition: .1s ease-in;
+    color: white;
+    transition: .2s ease-in;
 }
 
-.menu-a:hover{
-    font-weight: 700;
-}
 
 main {
     padding: 2rem;
@@ -56,7 +56,6 @@ footer {
     margin-top: 2rem;
 }
 
-/* Estilos específicos */
 .destaque {
     border: 1px solid #ddd;
     padding: 1rem;
@@ -88,7 +87,7 @@ input, textarea {
 
 button {
     padding: 0.5rem 1rem;
-    background-color: #5a0f0f;
+    background-color: #580e0e;
     color: white;
     border: none;
     cursor: pointer;
@@ -101,7 +100,53 @@ button {
     align-items: center;
 }
 
+.content > form {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 3px rgb(177, 1, 1) solid;
+    padding: 24px;
+    border-radius: 18px;
+    align-items: center;
+
+}
+
+.content > form > button {
+    justify-self: end;
+}
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
+
+
+.galeria > img{
+    border-radius: 18px;
+}
+
+
+.titulo {
+    position: relative;
+    font-size: 5rem;
+    font-size: 4rem;
+    color: rgb(255, 225, 225);
+    font-weight: bold;
+    text-align: center;
+    margin: 50px auto;
+    animation: liquido 4s infinite ease-in-out;
+    display: inline-block;
+}
+
+
+
+input,
+textarea {
+    transition: all 0.3s ease;
+    background-color: white; 
+    border: 2px rgb(190, 190, 190) solid;
+    outline: none;
+    padding: 8px; 
+}
+
