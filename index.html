@@ -33,37 +33,73 @@
       />
     </header>
 
-    <main>
-      <section class="content">
-        <h2>Bem-vindo à Vinheria Agnello</h2>
-        <p>
-          Desde 2009 produzindo os melhores vinhos da região com tradição
-          familiar.
-        </p>
-      </section>
-
-      <section class="content">
-        <h2>Destaques</h2>
-        <div class="destaque">
-          <img src="src/assets/imgs/taca.jpg" alt="Taça de vinho" />
-          <p>Conheça nossos vinhos premiados</p>
+    <main class="vinheria-home">
+    <!-- Seção de Boas-Vindas -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Bem-vindo à Vinheria Agnello</h1>
+            <p class="hero-subtitle">
+                Desde 2009 produzindo os melhores vinhos da região com tradição
+                familiar.
+            </p>
+            <a href="#destaques" class="hero-button">Conheça Nossos Vinhos</a>
         </div>
-      </section>
+    </section>
 
-      <section class="content">
-        <h2>Assista nosso vídeo</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/Y0tkX4wNwtA?si=20e85ydyaVtWYZI1"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </section>
-    </main>
+    <!-- Seção de Destaques -->
+    <section id="destaques" class="featured-section">
+        <div class="section-header">
+            <h2 class="section-title">Nossos Destaques</h2>
+            <div class="divider"></div>
+        </div>
+        
+        <div class="featured-container">
+            <div class="featured-card">
+                <div class="wine-glass-container">
+                    <img src="src/assets/imgs/taca.jpg" alt="Taça de vinho" class="wine-glass-img" />
+                    <div class="glass-reflection"></div>
+                </div>
+                <div class="featured-content">
+                    <h3>Vinhos Premiados</h3>
+                    <p>Descubra nossa seleção de vinhos reconhecidos internacionalmente</p>
+                    <ul class="awards-list">
+                        <li>🏆 Melhor Vinho Tinto - 2023</li>
+                        <li>🥇 Medalha de Ouro - Concours Mondial</li>
+                        <li>🍷 94 pontos - Wine Spectator</li>
+                    </ul>
+                    <button class="cta-button">Ver Coleção</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Vídeo -->
+    <section class="video-section">
+        <div class="section-header">
+            <h2 class="section-title">Nossa História em Vídeo</h2>
+            <div class="divider"></div>
+            <p class="section-description">Conheça o processo artesanal por trás de cada garrafa</p>
+        </div>
+        
+        <div class="video-container">
+            <div class="video-wrapper">
+                <iframe
+                    src="https://www.youtube.com/embed/Y0tkX4wNwtA?si=20e85ydyaVtWYZI1"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                ></iframe>
+                <div class="video-decoration">
+                    <div class="grape-cluster left"></div>
+                    <div class="grape-cluster right"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
 
     <footer>
       <p>&copy; 2025 Vinharia Agnello - Todos os direitos reservados</p>
